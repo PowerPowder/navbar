@@ -1,5 +1,5 @@
 body{
-    background: url("https://orig00.deviantart.net/e9d3/f/2016/339/5/9/animated_star_background_stock_by_firstdarkangel2001-daqohse.gif");
+    background: url("/other/space.gif");
     -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
 
@@ -72,4 +72,6 @@ form input{
 
 .test i{
     display: inline;
+    color: #fff;
+    padding: 0 0.5rem;
 }

@@ -1,7 +1,5 @@
 body{
-    /* background-image: url("https://agmautomotive.com/wp-content/uploads/2016/10/space-background.jpg"); */
-    /* background-image: url("https://data.whicdn.com/images/244985470/original.gif"); */
-    background-image: url("https://orig00.deviantart.net/9923/f/2015/321/9/d/blue_balcony_by_kirokaze-d9h03vb.gif");
+    background-image: url("/other/pixel-city.gif");
     -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
 
