@@ -1,0 +1,65 @@
+body{
+    /* background-image: url("https://agmautomotive.com/wp-content/uploads/2016/10/space-background.jpg"); */
+    /* background-image: url("https://data.whicdn.com/images/244985470/original.gif"); */
+    background-image: url("https://orig00.deviantart.net/9923/f/2015/321/9/d/blue_balcony_by_kirokaze-d9h03vb.gif");
+    -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+form *{
+    display: block;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+
+form{
+    width: 100%;
+}
+
+form input, textarea{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    margin: 1em auto;
+}
+
+.submit-ticket-title{
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+}
+
+.submit-ticket-subtitle{
+    font-size: 1.15em;
+    color: #000;
+    text-align: center;
+}
+
+.ticket{
+    margin: 0 15%;
+}
+
+.submit-ticket-wrapper{
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin: 10% 30%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+}
+
+.submit-btn{
+    width: 20%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 3px solid #555;
+    border-radius: 5px;
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+}
+
+.ticket-entity{
+    padding: 1em 0.5em;
+    font-size: 1em;
+}

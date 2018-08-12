@@ -1,0 +1,105 @@
+h1{
+    color: #fff;
+}
+
+.video-container {
+  position: absolute;
+  /* top: 0;
+  bottom: 0; */
+  width: 100%;
+  height: 90%; 
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  /* min-width: 100%; 
+  min-height: 100%;  */
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h1{
+  color: #fff;
+}
+
+#title-h, #title-sub, #product-logo{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#product-logo{
+  top: 15%;
+  height: 300px;
+  width: 300px;
+}
+
+#product-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-overlay{
+	-webkit-transition: opacity 0.5s; /* Safari */
+	-webkit-transition-delay: 0.3s; /* Safari */
+	transition: opacity 0.5s;
+	transition-delay: 0.3s;
+}
+
+.video-overlay:hover {
+	opacity: 0;
+}
+
+#video-background{
+  width: 100%;
+  /* height: 900px; */
+}
+
+#text-wrapper-overview{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  background: #1d1d1d;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 0 5% 0 65%;
+}
+
+#overview-title{
+  font-size: 2.5em;
+}
+
+#overview-content{
+  font-size: 1em;
+}
+
+#buy-product{
+  background-image: url("/website/products/pictures/angel.jpg");
+  height: 25%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#text-wrapper-buy{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  background: #1d1d1d;
+  opacity: 0.85;
+  border-radius: 5px;
+  margin: 0 30%;
+}

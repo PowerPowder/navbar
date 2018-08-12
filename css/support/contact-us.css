@@ -1,0 +1,31 @@
+textarea{
+    resize: none;
+} 
+
+.title{
+    text-align: center;
+}
+
+.col-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 20%;
+}
+
+.col1-wrapper *, .col2-wrapper *{
+    display: block;
+    margin: 1em auto;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.col1-wrapper, .col2-wrapper{
+    width: 100%;
+    padding: 0 3em;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}

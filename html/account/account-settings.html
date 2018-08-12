@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/account/account.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Hyperion Games - Account Settings</title>
+	
+	<style>
+		.flex-container {
+			display: flex;
+			flex-wrap: nowrap;
+			margin: 2em auto;
+			width: 65%
+		}
+
+		.flex-container > div {
+			margin: 0 2em;
+			background-color: #f1f1f1;
+			text-align: center;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+
+<div class="navbar">
+	<img class="dropbtn" id="company-logo" src="\company-logo\v2.png" style="cursor: pointer;" onclick="window.location='/index.html';"/>
+	<div class="home">
+		<div class="dropbtn" style="cursor: pointer;" onclick="window.location='/index.html';">Home</div>		
+	</div>
+	<div class="dropdown1">
+		<div class="nav-element2">
+			<div class="dropbtn">Products</div>
+			<div class="dropdown-content-products">
+				<a href="\html\products\diablo3.html">Diablo 3</a>
+				<a href="\html\products\hearthstone.html">Hearthstone</a>
+				<a href="\html\products\hots.html">Heroes of the Storm</a>
+				<a href="\html\products\overwatch.html">Overwatch</a>
+				<a href="\html\products\sc2.html">Starcraft 2</a>
+				<a href="\html\products\wow.html">World of Warcraft</a>
+			</div>
+		</div>
+	</div>
+	<div class="dropdown2">
+		<div class="nav-element2">
+			<div class="dropbtn">Support</div>
+			<div class="dropdown-content-support">
+				<a href="\html\support\submit-ticket.html">Submit Ticket</a>
+				<a href="\html\support\faq.html">Frequently Asked Questions</a>
+				<a href="\html\support\contact-us.html">Contact Us</a>
+			</div>
+		</div>	
+	</div>
+	<div class="home">
+		<div class="dropbtn" style="cursor: pointer;" onclick="window.location='/html/about/about.html';">About</div>
+	</div>
+	<div class="dropdown4">
+		<div class="nav-element2">
+			<div class="dropbtn">Account</div>
+			<div class="dropdown-content-account">
+				<a href="\html\account\sign-in.html">Sign In</a>
+				<a href="\html\account\account-settings.html">Account Settings</a>
+				<a href="\html\account\create-account.html">Create Account</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="flex-container">
+	<div class="col-change-settings">
+		<p class="account-settings-title">Change Account Settings</p>
+		<input type="text" class="input-text-field" placeholder="Username" name="username">
+		<input type="email" class="input-text-field" placeholder="Email" name="Email">
+		<input type="password" class="input-text-field" placeholder="Password" name="password">
+		<input type="submit" class="change-settings-btn" value="Change Settings" name="submit">
+	</div>
+	<div class="col-products">
+		<p class="account-settings-title">List of Products</p>
+		<div class="purchase-wrapper">
+			<ul class="products">
+				<li>Diablo 3</li>
+				<li>Hearthstone</li>
+				<li>Heroes of the Storm</li>
+				<li>Overwatch</li>
+				<li>StarCraft 2</li>
+				<li>World of Warcraft</li>
+			</ul>
+			<ul class="products">
+				<li class="purchased">Purchased</li>
+				<li class="not-purchased">Not Purchased</li>
+				<li class="purchased">Purchased</li>
+				<li class="not-purchased">Not Purchased</li>
+				<li class="purchased">Purchased</li>
+				<li class="not-purchased">Not Purchased</li>
+			</ul>
+		</div>	
+	</div>
+</div>
+
+<div id="footer">
+	<p>©2018 Hyperion Games</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* body, margin{
+    padding: 0;
+    margin: 0;
+} */
+
+body{
+    background-image: url("/other/account-background.jpg"); 
+    -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+ul, li{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+form input{
+    display: block;
+    margin: 1em auto;
+    width: 20%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1em 0 1em 0.5em;
+    border: none;
+}
+
+form p{
+    font-size: 2em;
+}
+
+input.input-entity{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: #aaa;
+    background-color: #1d1d1d;
+    border-bottom: 1px solid #aaa;
+}
+
+.input-text-field{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: #aaa;
+    border: none;
+}
+
+input.create-account-btn{
+    background-color: #ccc;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+input:focus {
+    outline: none;
+}
+
+.account-settings-title{
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-change-settings{
+    padding: 2em 0;
+}
+
+.col-products{
+    padding: 2em 0;
+}
+
+.col-change-settings input{
+    display: block;
+    margin: 2em auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 80%;
+    padding: 1em 1.5em;
+    /* border: none; */
+}
+
+.change-settings-btn{
+    background: #ccc;
+    border: none;
+    border-bottom: 2px solid #666;
+}
+
+/* .change-settings-btn:focus{
+    background: #bbb;
+} */
+
+.purchase-wrapper{
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.products{
+    padding: 2em 3em;
+}
+
+.products li{
+    padding: 1em 0;
+}
+
+.purchased{
+    color: #42f448;
+}
+
+.not-purchased{
+    color: #d13223;
+}
