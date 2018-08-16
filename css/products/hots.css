@@ -4,4 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
+
+#separate{
+    font-family: 'Chelsea Market', cursive;
+}
+  
+#buy-product{
+    background-image: url("/other/hots-gameplay.jpg");
+}

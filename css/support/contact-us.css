@@ -1,6 +1,6 @@
 body{
-    background: url("/other/space.gif");
-    -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+	background: url("/other/space.gif");
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
 
 textarea{

@@ -4,4 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
+
+#separate{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#buy-product{
+    background-image: url("/other/overwatch-gameplay.jpg");
+}

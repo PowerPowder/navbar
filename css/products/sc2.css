@@ -4,4 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
+
+#separate{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#buy-product{
+    background-image: url("/other/sc2-gameplay.jpg");
+}

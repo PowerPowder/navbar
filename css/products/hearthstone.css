@@ -4,4 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
+
+#separate{
+    font-family: 'Indie Flower', cursive;
+}
+
+#buy-product{
+    background-image: url("/other/hearthstone-gameplay.jpg");
+}

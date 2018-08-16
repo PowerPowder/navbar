@@ -1,0 +1,30 @@
+body{
+	background-image: url("/other/pixel-city.gif");
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+h1{
+	margin: 0;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.about-wrapper{
+	margin: 10em 20%;
+	background: rgba(240, 240, 240, 0.4);
+	padding: 1em 3em;
+}
+
+.about{
+	background: #fff;
+	border-radius: 4px;
+}
+
+.about-element{
+	padding: 1em;
+}
+
+.about-element p{
+	color: #000;
+	font-size: 1.25em;
+}
