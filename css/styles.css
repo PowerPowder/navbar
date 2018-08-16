@@ -67,7 +67,7 @@ a{
 }
 
 #title-landing{
-    background-image: url("/other/city.png");
+    background-image: url("other/city.png");
     height: 88%; 
     background-position: center;
     background-repeat: no-repeat;
