@@ -67,7 +67,7 @@ a{
 }
 
 #title-landing{
-    background-image: url("/other/city.png");
+    background-image: url("other/city.png");
     height: 88%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ a{
 }
 
 #about{
-    background-image: url("/stock-images/about.jpg");
+    background-image: url("stock-images/about.jpg");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ a{
 }
 
 #support{
-    background-image: url("/stock-images/support.jpg");
+    background-image: url("stock-images/support.jpg");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ a{
 }
 
 #contact{
-    background-image: url("/stock-images/contact.jpg");
+    background-image: url("stock-images/contact.jpg");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 body{
-	background-image: url("/other/pixel-city.gif");
+	background-image: url("other/pixel-city.gif");
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
 

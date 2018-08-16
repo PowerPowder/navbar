@@ -1,5 +1,5 @@
 #overview{
-    background-image: url("/products/pictures/reins.jpg");
+    background-image: url("products/pictures/reins.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -11,5 +11,5 @@
 }
 
 #buy-product{
-    background-image: url("/other/overwatch-gameplay.jpg");
+    background-image: url("other/overwatch-gameplay.jpg");
 }

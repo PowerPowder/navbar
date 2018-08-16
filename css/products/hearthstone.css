@@ -1,5 +1,5 @@
 #overview{
-    background-image: url("/products/pictures/hearthstone.jpg");
+    background-image: url("products/pictures/hearthstone.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -11,5 +11,5 @@
 }
 
 #buy-product{
-    background-image: url("/other/hearthstone-gameplay.jpg");
+    background-image: url("other/hearthstone-gameplay.jpg");
 }
